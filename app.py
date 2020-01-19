@@ -11,7 +11,7 @@ import pandas as pd
 
 import pickle
 
-loaded_AQIxgmodel=pickle.load(open('XGBoostAQI.pkl','rb'))
+loaded_AQIxgmodel=pickle.load(open('RandomforestAQI.pkl','rb'))
 app=Flask(__name__)
 
 @app.route('/')
